@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 90%;
+    margin: auto;
+   
+}
+
+/* navbar section. */
+nav ul{
+    display: flex;
+    float: right;
+    margin-right: 8%;
+}
+nav ul li{
+    list-style: none;
+    padding: 10% 2%;
+    margin: 10% 3%;
+}
+
+/* Site Logo Heading. */
+#heading{
+    padding: 7% 0 2% 5%;
+}
+
+/* First Section. */
+.content{
+    padding: 5%;
+    margin-top: 2vh;
+    background-color: rgb(241 236 243);
+}
+h2{
+    width: 100%;
+}
+.content button{
+    margin: 25px 0;
+    padding: 4px 10px;
+    border-radius: 5px;
+    
+}
+
+/* Second Section. */
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4%;
+    /* margin-bottom: 2%; */
+}
+.area{
+   padding-top: 2%;
+   /* padding-bottom: 24%; */
+   height: 200% ;
+   /* overflow: scroll; */
+}
+.chart{
+    height: 180px;
+    width: 90%;
+    background-color: rgb(241 236 243);
+}
+.sentence{
+    text-align: center;
+    padding-top: 12%;
+}
+.sentence h3{
+    padding-bottom: 12%;
+}
+.sentence .gap{
+    padding-bottom: 20%;
+}
+.anchor{
+    margin: 2%;
+    padding: 2%;
+}
+.anchor a{
+    color: black;
+    
+}
+
+/* Subscribe Section. */
+.subscribe{
+    background-color: rgb(241 236 243);
+    /* height: 20%; */
+    display: flex;
+    padding: 1% 0%; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 3% ;
+}
+.subscribe h2{
+    text-align: center;
+    padding: 0.5% 5%;
+    font-size: 100%;
+}
+.subscribe input{
+    height: 25px;
+    padding: 4px 10px;
+}
+.subscribe button{
+    background-color: rgb(75, 145, 236);
+    color: white;
+    padding: 0.6% 5%;
+    margin: 3px 10px;
+    border: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Footer Section. */
+footer{
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    padding-left: 40px;
+}
+#right{
+    padding-right: 40px;
+}
